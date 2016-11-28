@@ -12,8 +12,8 @@ Kompetisi pada umumnya melakukan penilaian menggunakan sistem otomatis yang tela
 # Materi Kompetisi Ngoding
 
 Materi kompetisi ngoding ini diambil dari _online course_ [How to Win Coding Competition](https://courses.edx.org/courses/course-v1:ITMOx+I2CPx+3T2016/info) yang saya transliterasi ke dalam Bahasa Indonesia untuk memudahkan programmer pemula yang ingin berkompetisi di Kompetisi Ngoding. Materi yang saya sampaikan meliputi:
-1. [Dasar Kompetisi Koding]
-2. Kompleksitas Komputasi dan Struktur Data Linear
-3. Algoritma Pengurutan dan Pencarian
-4. Algoritma pada Graf
+1. [Dasar Kompetisi Koding](https://github.com/ridif/kompetisi-ngoding/tree/master/01.%20Dasar%20Kompetisi%20Koding)
+2. [Kompleksitas Komputasi dan Struktur Data Linear](https://github.com/ridif/kompetisi-ngoding/tree/master/02.%20Kompleksitas%20Komputasi%20dan%20Struktur%20Data%20Linear)
+3. [Algoritma Pengurutan dan Pencarian](https://github.com/ridif/kompetisi-ngoding/tree/master/03.%20Algoritma%20Pengurutan%20dan%20Pencarian)
+4. [Algoritma pada Graf](https://github.com/ridif/kompetisi-ngoding/tree/master/04.%20Algoritma%20pada%20Graf)
 
