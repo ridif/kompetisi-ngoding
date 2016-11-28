@@ -18,3 +18,4 @@ Materi kompetisi ngoding ini diambil dari _online course_ [How to Win Coding Com
 3. [Algoritma Pengurutan dan Pencarian](https://github.com/ridif/kompetisi-ngoding/tree/master/03.%20Algoritma%20Pengurutan%20dan%20Pencarian)
 4. [Algoritma pada Graf](https://github.com/ridif/kompetisi-ngoding/tree/master/04.%20Algoritma%20pada%20Graf)
 
+Perlu diketahui bahwa solusi yang dibuat dalam bahasa C++ dan Java. Kasus-kasus di dalam materi ini menggunakan file untuk melakukan input dan output, namun juga mengakomodir kondisi ketika tidak membutuhkan file. Nama file mengikuti aturan penamaan di dalam kasus, baik file input maupun output.
