@@ -1,4 +1,4 @@
-# A + B
+# **A + B**
 
 | Nama 					| Nilai        	|
 | ------------- | ------------- |
@@ -20,7 +20,7 @@ Output berupa satu baris hasil dari A + B di file output.
 | ------------- | ------------- |
 | 23 11					| 34						|
 
-### Solusi
+# **Solusi**
 Problem ini sangat sederhana: hanya **tambahkan dua bilangan dan cetak hasilnya.**
 
 Namun, kamu perlu mengetahui atau belajar bagaimana cara membuka file, membaca integer dari file, dan menuliskannya ke dalam file pada bahasa pemrograman pilihanmu. Seperti yang sudah disampaikan pada README.md di main tree, bahwa solusi yang diberikan hanya dalam bahasa C++ dan Java. Namun saya yakin kalian bisa mengubah ke bahasa lain berdasarkan analisa solusi.

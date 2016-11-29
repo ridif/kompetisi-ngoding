@@ -1,4 +1,4 @@
-# A + B^2
+# **A + B^2**
 
 | Nama 					| Nilai        	|
 | ------------- | ------------- |
@@ -20,7 +20,7 @@ Output berupa satu baris hasil dari A + B<sup>2</sup> di file output.
 | ------------- | ------------- |
 | 23 11					| 144						|
 
-### Solusi
+# **Solusi**
 Problem ini sebenarnya cukup sederhana jika dilihat aturannya. Hanya **menjumlahkan nilai A dengan hasil perpangkatan 2 dari B**. Namun umumnya programmer pemula dalam kontes ngoding kurang memperhatikan batasan suatu tipe data sehingga kasus sederhana ini tergolong _tricky_ dan menyebabkan percobaan/submission jadi banyak. **Ingat, selalu perhatikan batasan input/output!**
 
 Bayangkan salah satu *test case* dengan nilai input berupa batasan maksimum:
