@@ -30,14 +30,20 @@ Solusi ini menunjukkan bagaimana menggunakan input/output yang digunakan khusus 
 std::ifstream dan std::ofstream
 
 ```cpp
+#ifdef JUDGE
 #include <fstream>
+std::ifstream cin("aplusb.in");
+std::ofstream cout("aplusb.out");
+#else
+#include <iostream>
+using std::cin;
+using std::cout;
+#endif
 
 int main() {
-	std::ifstream inf("aplusb.in");
-	std::ofstream ouf("aplusb.out");
 	int a, b;
-	inf >> a >> b;
-	ouf << a + b;
+	cin >> a >> b;
+	cout << a + b;
 	return 0;
 }
 ```
@@ -49,15 +55,28 @@ Solusi dengan Java ini menggunakan ```java.io.BufferedReader``` untuk membaca fi
 import java.io.*;
 import java.util.*;
 
-public class aplusb {
+public class Main {
+	static BufferedReader newInput() throws IOException {
+		if (System.getProperty("JUDGE") != null) {
+			return new BufferedReader(new FileReader("aplusb.in");
+		} else {
+			return new BufferedReader(new InputStreamReader(System.in));
+		}
+	}
+
+	static PrintWriter newOutput() throws IOException {
+		if (System.getProperty("JUDGE") != null) {
+			return new PrintWriter("aplusb.out");
+		} else {
+			return new PrintWriter(System.out);
+		}
+	}
 	public static void main(String[] args) throws IOException {
-		try (BufferedReader in = new BufferedReader(new FileReader("aplusb.in"));
-			PrintWriter out = new PrintWriter("aplusb.out")) {
-				StringTokenizer tok = new StringTokenizer(in.readLine());
-				int a = Integer.parseInt(tok.nextToken());
-				int b = Integer.parseInt(tok.nextToken());
-				out.println(a + b);
-			}
+		try (BufferedReader in = newInput(); PrintWriter out = newOutput()) {
+			StringTokenizer tok = new StringTokenizer(in.readLine());
+			int a = Integer.parseInt(tok.nextToken());
+			int b = Integer.parseInt(tok.nextToken());
+			out.println(a + b);
 		}
 	}
 }
